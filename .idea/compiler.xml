@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="veterinaria" />
+        <module name="tablaProfesor" />
+        <module name="tablaMovimientos" />
+        <module name="Clinica-Odontologica" />
+        <module name="tablaUsuarios" />
+        <module name="directorTecnico" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Clinica-Odontologica" options="-parameters" />
+      <module name="directorTecnico" options="-parameters" />
+      <module name="tablaMovimientos" options="-parameters" />
+      <module name="tablaProfesor" options="-parameters" />
+      <module name="tablaUsuarios" options="-parameters" />
+      <module name="veterinaria" options="-parameters" />
+    </option>
+  </component>
+</project>
