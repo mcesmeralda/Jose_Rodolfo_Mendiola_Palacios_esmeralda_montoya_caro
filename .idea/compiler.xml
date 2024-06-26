@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="veterinaria" />
-        <module name="tablaProfesor" />
-        <module name="tablaMovimientos" />
         <module name="Clinica-Odontologica" />
-        <module name="tablaUsuarios" />
-        <module name="directorTecnico" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="directorTecnico" target="17" />
+      <module name="tablaMovimientos" target="17" />
+      <module name="tablaProfesor" target="17" />
+      <module name="tablaUsuarios" target="17" />
+      <module name="veterinaria" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
